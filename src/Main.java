@@ -232,9 +232,7 @@ public class Main { //Set initial variable values
 		hPitcherBatter.setBounds(10, 115, 200, 20);
 		frame.add(hPitcherBatter);
 
-		JTextField hAddPlayer = new JTextField ("");
-		TextPrompt hAddtp = new TextPrompt("Enter Name Here", hAddPlayer);
-		hAddtp.changeAlpha(0.5f);
+		JTextField hAddPlayer = new JTextField ("Enter Name Here");
 		hAddPlayer.setBounds(10, 440, 125, 20);
 		frame.add(hAddPlayer);
 
@@ -285,9 +283,7 @@ public class Main { //Set initial variable values
 		vPitcherBatter.setBounds(250, 115, 200, 20);
 		frame.add(vPitcherBatter);
 
-		JTextField vAddPlayer = new JTextField ("");
-		TextPrompt vAddtp = new TextPrompt("Enter Name Here", vAddPlayer);
-		vAddtp.changeAlpha(0.5f);
+		JTextField vAddPlayer = new JTextField ("Enter Name Here");
 		vAddPlayer.setBounds(250, 440, 125, 20);
 		frame.add(vAddPlayer);
 
